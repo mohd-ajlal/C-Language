@@ -1,0 +1,11 @@
+Variables: Variables is a name of memory location which stores some data.
+# Variables are used to store data to be referenced and manipulated in a computer program.
+# Variables are containers for storing data values.
+# Variables are used to store data values.
+
+rules of variable:
+
+a. Variables are case sensitive
+b. First character is alphabet or '_'
+c. no commas or blank scace
+d. no matter symbol other than '_'

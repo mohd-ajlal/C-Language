@@ -1,0 +1,11 @@
+Data Types in C Language
+1. int: It is used to store integer values. It is a 2 byte data type.
+2. float: It is used to store floating point values. It is a 4 byte data type.
+3. char: It is used to store character values. It is a 1 byte data type.
+4. double: It is used to store floating point values. It is a 8 byte data type.
+5. void: It is used to define functions that do not return a value.
+6. long: It is used to store integer values. It is a 4 byte data type.
+7. short: It is used to store integer values. It is a 2 byte data type.
+8. signed: It is used to store integer values. It is a 2 byte data type.
+9. unsigned: It is used to store integer values. It is a 2 byte data type.
+10. long double: It is used to store floating point values. It is a 10 byte data type.
