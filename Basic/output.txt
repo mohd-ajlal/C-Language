@@ -1,0 +1,42 @@
+To print any output on screen we use print() function. 
+It is a built-in function in Python. 
+It is used to print the output on the screen.
+
+print() function:
+1. print() function with single string
+2. print() function with multiple strings
+3. print() function with single variable
+4. print() function with multiple variables
+5. print() function with single string and single variable
+6. print() function with single string and multiple variables
+7. print() function with multiple strings and single variable
+8. print() function with multiple strings and multiple variables
+9. print() function with single string and single variable and end parameter
+10. print() function with single string and multiple variables and end parameter
+11. print() function with multiple strings and single variable and end parameter
+12. print() function with multiple strings and multiple variables and end parameter
+13. print() function with single string and single variable and sep parameter
+
+Syntax of print() function:
+print(*objects, sep=' ', end=' ', file=sys.stdout, flush=False)
+
+Parameters of print() function:
+1. objects: It is a variable-length argument list.
+2. sep: It is used as separator between the values. It defaults into a space character.
+3. end: It is used to append at the end of the output. It defaults into a new line.
+4. file: It is an object with a write method. It defaults into the sys.stdout.
+5. flush: It is a Boolean, controlling whether to forcibly flush the stream. It defaults into False.
+
+Return value of print() function:
+It returns None.
+
+Cases:
+1. integer: %d
+2. float: %f
+3. string: %s
+4. character: %c
+5. octal: %o
+6. hexadecimal: %x
+7. exponential: %e
+
+
