@@ -9,3 +9,25 @@ Data Types in C Language
 8. signed: It is used to store integer values. It is a 2 byte data type.
 9. unsigned: It is used to store integer values. It is a 2 byte data type.
 10. long double: It is used to store floating point values. It is a 10 byte data type.
+
+
+Constant in C Language:
+A constant is a fixed value that the program may not alter during its execution. 
+Types of Constants in C Language:
+1. Integer Constant: It is a constant of integer type. It is a whole number that does not contain a decimal point. For example: 25, 100, 0, -100.
+2. Real Constant: It is a constant of real type. It is a number that contains a decimal point. For example: 3.14, 0.0, -1.5.
+3. Character Constant: It is a constant of character type. It is a single character enclosed in single quotes. For example: 'a', 'b', 'c'. 
+
+
+Variable in C Language:
+A variable is a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.
+Types of Variables in C Language:
+1. Local Variable: A variable declared inside the function or block is called local variable. The local variable is created when the function or block is entered and the variable is destroyed when the function or block is exited.
+2. Global Variable: A variable declared outside the function or block is called global variable. The global variable is created when the program is executed and destroyed when the program is terminated.
+3. Static Variable: A variable declared with static keyword is called static variable. The static variable is created when the program is executed and destroyed when the program is terminated.
+
+Keywords in C Language:
+Reserved words that have special meaning to the compiler.
+There are mainly 32 keywords in C language:
+auto, break, case, char, const, continue, default, do, double, else, enum, extern, float, for, goto, if, int, long, register, return, short, signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile, while
+
