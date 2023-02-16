@@ -1,0 +1,1 @@
+    out =  pow(base, exp);
