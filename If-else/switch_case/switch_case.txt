@@ -1,0 +1,12 @@
+a is a variable
+
+switch(a){
+    case 1:
+        printf();
+    case 2:
+        printf();
+    case 3:
+        printf();
+    default:
+        printf();
+}
