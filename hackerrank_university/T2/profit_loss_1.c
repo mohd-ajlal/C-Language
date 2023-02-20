@@ -1,5 +1,4 @@
 #include<stdio.h>
-
     int main(){
     float C, S, perc;
     scanf("%f", &C);
