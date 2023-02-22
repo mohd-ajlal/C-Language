@@ -1,33 +1,33 @@
 #include<stdio.h>
 
     int main(){
-    int day;
-    printf("Input week number(1-7): ");
-    scanf("%d", &day);
+    char day;
+    printf("Input week day first char and if repeating enter second char: ");
+    scanf("%c", &day);
     switch(day){
-        case 1:
+        case 'M':
             printf("Monday");
             break;
-        case 2:
+        case 'T':
             printf("Tuesday");
             break;
-        case 3:
+        case 'W':
             printf("Wednesday");
             break;
-        case 4:
+        case 'H':
             printf("Thursday");
             break;
-        case 5:
+        case 'F':
             printf("Friday");
             break;
-        case 6:
+        case 'S':
             printf("Saturday");
             break;
-        case 7:
+        case 'U':
             printf("Sunday");
             break;
         default:
-            printf("Invalid input"); 
+            printf("Invalid input");
     }
 
     return 0;
