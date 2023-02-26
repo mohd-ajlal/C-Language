@@ -28,21 +28,3 @@
 // 98
 // 14
 // 9
-
-// Sample Output 1
-
-// 2024782584832
-
-#include<stdio.h>
-#include<math.h>
-
-    int main(){
-    int c, k, n;
-
-    scanf("%d", &c);
-    scanf("%d", &k);
-    scanf("%d", &n);
-    long long int out = c * pow(k, n) ;
-    printf("%lld",out);    
-    return 0;
-}
