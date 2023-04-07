@@ -1,3 +1,3 @@
-else{
-            //     printf("You have completed %d chances\n", i);
-            // }
+    // for(int i=0; i<4; i++){
+    //     printf("%d ",arr[i]);
+    // }
