@@ -16,4 +16,4 @@
         printf("%d ",out[i]);
     }
     return 0;
-}
+} 
