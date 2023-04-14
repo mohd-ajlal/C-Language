@@ -15,9 +15,6 @@
     for(int j=0; j < size; j++){
         scanf("%d", &arr[j]);
     }
-    // for(int j = 0; j < size; j++){
-    //     printf("%d", arr[j]);
-    // }
     int min = arr[0], max = arr[0];
     if(size>0){
     for(int j = 0; j < size-1; j++){
