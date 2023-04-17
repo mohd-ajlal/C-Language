@@ -1,34 +1,21 @@
-// Program to find sum of following series.
-
-// 1^2/1^3 + 3^2/3^3 + 5^2/5^3 + 7^2/7^3 + ... till n terms
-
-// Input Format
-
-//     Take an integer n from the user to store the number of terms.
-
-// Constraints
-
-//     n>=0 && n<=10000
-
-// Output Format
-
-//     It should print the sum of n terms of given series.
-
-// Sample Input 0
-
-// 10
-
-// Sample Output 0
-
-// 2.133256
-
-
 #include<stdio.h>
+#include<math.h>
 
-int main(){
-    int n;
-    scanf("%d", &n);
-    float sum = 0;
-    
+int main()
+{
+    int i,N;
+    float sum;
+    int count;
+    scanf("%d",&N);
+    sum=0.0f;
+    count=1;
+    for(i=1;i<=N;i++)
+    {
+        sum = sum +  ( (float)(pow(count,2)) / (float)(pow(count,3)) );
+        count+=2;
+    }
+
+    printf("%f",sum);
+
     return 0;
 }
