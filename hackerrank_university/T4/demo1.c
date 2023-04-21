@@ -1,35 +1,59 @@
-// #include<stdio.h>
-
-//     int main(){
-//     int n1, n2;
-//     scanf("%d\n%d",&n1, &n2);
-//     int arr[n1*n2];
-//     for(int i = 0; i < n1; i++){
-//         for(int j =0; j < n2; j++){
-//         scanf("%d",&arr[j]);
-//     }
-//     for(int j = 0; j < n2; j++){
-//         printf("%d",arr[j]);
-//     }
-//     }
-//     // printf("Helllo");
-//     return 0;
-// }
-
 #include<stdio.h>
+struct pair
+{
+int min;
+int max;
+};
 
-    int main(){
-    int arr[5] = {3,1,4,4,5};
-    int arr1 = arr[1];
-    printf("%d\n",arr1);
-    int min = arr[0];
-    for(int j = 1; j < 4; j++){
-                if(min <= arr[j+1]){
-            min = min; 
-        }
-        else{
-            min = arr[j+1];
-        }
+struct pair getMinMax(int arr[], int n)
+{
+struct pair minmax;    
+int i;
+if (n == 1)
+{
+    minmax.max = arr[0];
+    minmax.min = arr[0];    
+    return minmax;
+}
+
+if (arr[0] > arr[1])
+{
+    minmax.max = arr[0];
+    minmax.min = arr[1];
+}
+else
+{
+    minmax.max = arr[1];
+    minmax.min = arr[0];
+}
+
+for (i = 2; i<n; i++)
+{
+    if (arr[i] > minmax.max)    
+    minmax.max = arr[i];
+
+    else if (arr[i] < minmax.min)    
+    minmax.min = arr[i];
+}
+
+return minmax;
+}
+
+int main()
+{
+int t, n;
+scanf("%d", &t);
+scanf("%d", &n);
+
+for(int i=0; i<t; i++){
+    int arr[n];
+    for(int j=0; j<n; j++){
+        scanf("%d", &arr[j]);
     }
-    return 0;
+    struct pair minmax = getMinMax (arr, n);
+    printf("Min=%d Max=%d\n", minmax.min, minmax.max);
+}
+return 0;
+
+
 }
