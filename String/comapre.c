@@ -2,7 +2,7 @@
 #include<string.h>
     int main(){
     int flag = 0;
-    char s1[] = "Hello";
+    char s1[] = "Hi";
     char s2[] = "Hi";
     for(int i = 0; s1[i]!='\0'|| s2[i]!='\0' ; i++){
         if(s1[i]!=s2[i]){

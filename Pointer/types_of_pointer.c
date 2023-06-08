@@ -1,4 +1,4 @@
 // void pointer
 // null pointer
-// daggling pointer
-// while pointer
+// dangling pointer
+// wild pointer
