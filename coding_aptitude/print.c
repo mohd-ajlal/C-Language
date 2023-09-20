@@ -10,5 +10,9 @@
     printf("%d", a);
     printf("%f", b);
     printf("%c", c);
+    // printf("%c", c);
+    // 10
+    // 10
+    // a
     return 0;
 }
