@@ -11,4 +11,4 @@
 // stdio.h is a header file that contains the declarations of the standard input/output functions.
 // void means that the function main() does not return any value.
 // void main() is the main function of the program.
-// printf() is a function that prints the string "Hello World" on the screen.
+// printf() is a function that prints the string on the screen. // "hello world"
