@@ -4,6 +4,7 @@
     #ifdef san
     #define san 20
     #endif
+    #define san 50
     printf("%d", san);
     return 0;
 }
