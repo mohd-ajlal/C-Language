@@ -1,7 +1,4 @@
-#include<stdio.h>
+#include <stdio.h> int main()
 
-    int main(){
-    int num = printf("Hello\n");
-    printf("%d", num);
-    return 0;
+{ int y = 0; if (1 |(y = 1)) printf("y is %d\n", y); else printf("%d\n", y);
 }
